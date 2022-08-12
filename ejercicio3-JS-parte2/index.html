@@ -5,14 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ejercicio 3 JS parte II</title>
-    <link rel="stylesheet" href="ejercicio3-JS-parte2/style.css">
+    <link rel="stylesheet" href="/ejercicio3-JS-parte2/style.css">
 
 </head>
 <body>
     
     <input placeholder= "Ingrese una tarea" type="text" name="inputTarea" class="myInput">
-    <button type="button" class="addBtn">Agregar Tarea</button>
+    
+    <button type="button" class="addBtn">Agregar Tarea</button> <!-- así agrego botones-->
+    <button type="button" class="removeBtn">Eliminar Última Tarea</button>
+    <button type="button" class="removeAllBtn">Eliminar Todas las tareas</button>
+    
+    
+    
     <ol class="myOl"></ol>
+    
+    <div> 
+        <input placeholder= "Ingrese el # de orden" type="text" name="inputOrden" class="myInputOrden"> <!-- ingresa el orden de la lista a ser removido-->
+        <button type="button" class="removeOrdenBtn">Eliminar Tarea indicada</button>
+
+    </div>
+    
     <script type="text/javascript" src="/ejercicio3-JS-parte2/main.js"></script>
 
 </body>
