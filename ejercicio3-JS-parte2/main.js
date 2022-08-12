@@ -7,17 +7,12 @@ let miLista = document.querySelector (".myOl");
 let arregloTareas =[]; //voy a guardar la lista en un arreglo y lo defino al principio como vacio
 
 
-    
-
-
-
 let agregarTarea= ()=> {
-    let nuevaTarea= miEntrada.value; //me da o devuelve el contenido del input  
-    arregloTareas.push(nuevaTarea); //la nueva tarea la voy a poner al final de la lista con "PUSH"
-    miEntrada.value="";
+    arregloTareas.push(miEntrada.value); //la nueva tarea la voy a poner al final de la lista con "PUSH"
     let miItem = document.createElement("li");
-    miItem.innerHTML =  nuevaTarea; //vaciar la lista o igualarla a cero.  innerHTML es la propiedad para cacrgar la lista
+    miItem.innerHTML =  miEntrada.value; //vaciar la lista o igualarla a cero.  innerHTML es la propiedad para cacrgar la lista
     miLista.appendChild(miItem);
+    miEntrada.value='';
     
 }
 
