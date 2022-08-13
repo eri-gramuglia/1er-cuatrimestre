@@ -43,20 +43,47 @@
     
 }
 
-.lista {
+.listaYTotal {
     height: 60%;
     width: 100%;
     border-bottom: 4px solid black;
     background-color: lightsalmon;
     text-align: center;
-
 }
+
+.myUl {
+    padding: 20px;
+    width: 90% ;
+}
+
+.divInformaTotal {
+    height: 20px;
+    width: 30%;
+    text-align: left;
+    background-color: bisque;
+    border :  1px solid black;
+    margin-left: 35%;
+    margin-top: 100px;
+    
+}
+
 .footer {
     height: 20px;
     width: 100%;
     border-bottom:4px solid black;
     background-color:tomato;
     text-align: center;
+}
+.lastFooter {
+    height: 10px;
+    width: 100%;
+    border-bottom:4px solid black;
+}
+.imagenLastFooter{
+    width: 100%;
+    height: 30px;
+    
+    
 }
 
 .botonAgregar{

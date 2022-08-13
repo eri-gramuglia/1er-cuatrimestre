@@ -15,30 +15,45 @@
    
         <div class="contenidoInput">
             <div class="contenidoInputProd">
-                <input type="producto" name="Producto" placeholder="Ingresar Producto"></input>
+                 <input placeholder=" Ingresar Producto" type="texto" name="inputProducto" class="myInputProd"> <!-- ingresa producto -->
             </div>
+
             <div class="contenidoInputPrecio">
-                <input type="precio" name="Precio" placeholder="Ingresar Precio"></input>
+                <input  placeholder="Ingresar Precio" type="texto" name="Precio" class="myInputPrecio"></input> <!--ingresa precio-->
             </div>
         </div>
 
         <div class="contenidoBotones">
             <div class="botonAgregar">
-                <input type="button" value="Agregar">
+                <button type="button" class="addProdBtn">Agregar</button> <!-- así agrego boton de agregar producto-->
             </div>
             <div class="botonTotal">
-                <input type="button" value="Total">
+                <button type="button" class="totalBtn">Total</button> <!-- así agrego boton de precio del producto-->
             </div>
         </div>
 
-    <div class="lista">
-        <h3>Productos Agregados</h3>
-        <ul class="lis_prod"></ul>
+    <div class="listaYTotal">
+        <div class= "divLista">
+             <h3>Productos Agregados</h3>
+             <ul class="myUl"></ul>
+        </div>
+        <div class="divInformaTotal">
+             
+            <p>El Total es: </p>
+             
+        </div>
+       
     </Div>
+
     <div class="footer">
         <p class="">SuperMercadito "Mi Barrio"
         </p>
     </div>
+    <!--
+    <div class="lastFooter">
+         <img class imagenLastFooter src="https://th.bing.com/th/id/OIP.9cH6qhmEefiiqzVBKOOV6gHaFP?pid=ImgDet&rs=1" alt="góndola de supermercado">
+    </div>
+    -->
     
 </div>
 
