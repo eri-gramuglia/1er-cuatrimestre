@@ -1,0 +1,22 @@
+button {
+    background-color: #ffb3b3;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #000000;
+   
+  }
+  .divPrueba {
+    background-color: #ffe9ae;
+    padding: 50px;
+    width: auto;
+  }
+  .contenedorBotones {
+    background-color: #c1efff;
+    padding: 10px;
+    width: 300px;
+    display: flex;
+  }
+  .ocultar {
+    display: none;
+  }
+  
