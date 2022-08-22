@@ -2,7 +2,7 @@
 'use strict';
 
 let boton = document.querySelector(".btnOnOff");
-boton.addEventListener('click', desaparecer());
+boton.addEventListener('click', desaparecer);
 
 function desaparecer (){
   let caja = document.querySelector("divOnOff");
