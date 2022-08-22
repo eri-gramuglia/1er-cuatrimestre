@@ -4,7 +4,7 @@
 
 let miEntrada = document.querySelector(".myInput"); //la variable va a contener el valor que hay en el input y lo traemos con el queryselector
 let miLista = document.querySelector (".myOl");  //lo rojo es la clase
-let miIndice = document.querySelector("myInputOrden");
+let miIndice = document.querySelector(".myInputOrden");
 
 
 //let arregloTareas =[]; //voy a guardar la lista en un arreglo y lo defino al principio como vacio
