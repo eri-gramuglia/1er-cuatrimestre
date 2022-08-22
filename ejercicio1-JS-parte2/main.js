@@ -5,7 +5,7 @@ let boton = document.querySelector(".btnOnOff");
 boton.addEventListener('click', desaparecer);
 
 function desaparecer (){
-  let caja = document.querySelector("divOnOff");
+  let caja = document.querySelector(".divOnOff");
   caja.classList.toggle("desaparece");
 };
 
