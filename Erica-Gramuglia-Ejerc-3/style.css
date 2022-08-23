@@ -1,0 +1,85 @@
+.container{
+    display:flexbox;
+    background-color:white;
+}
+.encabezado{
+    background-color: blue;
+    padding:4px;
+    border-radius:15px;
+    height: 160px;
+    width: 98%;
+    border: 1px solid black;
+    border-radius:15px;
+
+}
+
+.cuerpo{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding:4px;
+    
+    border-radius:15px;
+    height: 450px;
+    width: 98%;
+    flex-direction: row;
+}
+
+.izquierda{
+    display:flexbox;
+    background-color: yellow;
+    justify-items: center;
+    border-radius:15px;
+    height: 450px;
+    width: 48%;
+    border: 1px solid black;
+    border-radius:15px;
+}
+.derecha{
+
+    justify-items: center;
+    border-radius:15px;
+    height: 450px;
+    width: 48%;
+    
+    border-radius:15px;
+    margin-bottom: 10px;
+}
+.derecha1,.derecha11{
+    background-color: red;
+    justify-items: center;
+    margin-bottom: 4px;
+    border-radius:15px;
+    height: 160px;
+    width: 100%;
+    border: 1px solid black;
+    border-radius:15px;
+}
+
+.derecha2{
+   
+    display: flex;
+    justify-items: center;
+    border-radius:15px;
+    height: 120px;
+    width: 100%;
+    justify-content: space-around;
+    border-radius:15px;
+}
+.pie1{
+    background-color: blueviolet;
+    border-radius:15px;
+    height: 120px;
+    width: 48%;
+    border: 1px solid black;
+    border-radius:15px;
+
+}
+.pie2{
+    background-color: blueviolet;
+    border-radius:15px;
+    height: 120px;
+    width: 48%;
+    border: 1px solid black;
+    border-radius:15px;
+}
