@@ -1,10 +1,18 @@
 'use strict';
 
 let boton = document.querySelector(".btnCant");
-boton.addEventListener('click', crearDiv);
+boton.addEventListener("click", crearDiv);
 
 function crearDiv () {
-    let miCant = document.querySelector(".cantDiv");
-    miCant = document.createElement("div");
 
+    let caja = document.createElement("div");
+    let body = document.querySelector("body");
+
+    let miCant = document.querySelector(".cantDiv");
+    miCant.innerHTML = miCant.value;
+    console.log("cant de div:" , miCant) 
+    
+    for (let i=o; i<miCant.value; i++){
+       (body.appendChild(caja))
+    }
 }
